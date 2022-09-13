@@ -8,9 +8,17 @@ const theme = createTheme({
         secondary: {
             main: 'hsl(300, 69%, 71%)'
         },
+        light: {
+            main: '#fff'
+        }
     },
     typography: {
-        fontFamily: "'Open Sans' sans-serif"
+        fontFamily: "'Open Sans', sans-serif",
+        body1: {
+            fontSize: '18px',
+            color: 'white',
+            fontWeight: 400
+        }
     },
     breakpoints:{
         values: {

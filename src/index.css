@@ -10,3 +10,12 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.mockup {
+  flex-basis: 55%;
+}
+
+.footer{
+  background: red;
+  height: 300px;
+}
